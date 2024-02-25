@@ -4,7 +4,7 @@
 </p>
 
 ## Dataset
-The dataset used in this project can be found on Kaggle: [arXiv Papers Dataset](https://www.kaggle.com/datasets/harshsinghal/nlp-and-llm-related-arxiv-papers/data). 
+The dataset used in this project can be found on Kaggle: [Llama-2 Dataset](https://www.kaggle.com/models/metaresearch/llama-2/frameworks/PyTorch/variations/7b-chat-hf/versions/1). 
 
 ## Objective
 - To provide a comprehensive collection of academic papers on Large Language Models (LLMs), ChatGPT, Transformers, and related topics.
@@ -33,8 +33,8 @@ To get started with this project:
 1. Clone this repository to your local machine.
 2. Ensure you have Jupyter Notebook installed and running.
 3. Install the required dependencies.
-4. Download the "arXiv Papers Dataset" and place it in the designated directory.
-5. Open and run the Jupyter Notebook "RAG_arXiv_Papers.ipynb" to train and evaluate the model.
+4. Download the "Llama-2 Dataset" and place it in the designated directory.
+5. Open and run the Jupyter Notebook "Llama2-Quantization.ipynb" to train and evaluate the model.
 
 ## Contributing
 We welcome contributions to enhance the functionality and efficiency of this script. Feel free to fork, modify, and make pull requests to this repository. To contribute:
