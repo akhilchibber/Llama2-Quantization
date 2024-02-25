@@ -7,25 +7,23 @@
 The dataset used in this project can be found on Kaggle: [Llama-2 Dataset](https://www.kaggle.com/models/metaresearch/llama-2/frameworks/PyTorch/variations/7b-chat-hf/versions/1). 
 
 ## Objective
-- To provide a comprehensive collection of academic papers on Large Language Models (LLMs), ChatGPT, Transformers, and related topics.
-- To facilitate quick access to seminal and cutting-edge research for enthusiasts, researchers, and practitioners in the field of artificial intelligence.
-- To support the community in identifying research gaps and opportunities within the domain of Retrieval Augmented Generation (RAG) and beyond.
+This project demonstrates the quantization of the Llama 2 model using the llama.cpp library to optimize its deployment on consumer-grade hardware. The goal is to reduce the model size and improve inference speed without significant loss of performance, making advanced AI models more accessible for a wider range of applications.
 
 ## Key Components
-- **Curated List of Papers**: An annotated compilation of research papers, including titles, authors, summaries, and key findings.
-- **Jupyter Notebook Overview**: A detailed notebook (`Jupyter_Note.pdf`) presenting the collection with insights and annotations for each paper.
-- **Research Focus Areas**: Emphasis on Retrieval Augmented Generation, LLMs, ChatGPT, and Transformers among other AI technologies
+- **Llama 2 Model**: A cutting-edge large language model known for its deep understanding and generation of natural language.
+- **llama.cpp Library**: A tool designed for model conversion and quantization, facilitating the execution of large models on lower-performance hardware.
+- **Quantization Process**: Techniques applied to convert the Llama 2 model into the GGUF format, optimizing it for efficient use on consumer devices.
 
 ## Functionality
-- **Research Acceleration**: Streamlines the research process by offering an organized repository of significant works.
-- **Educational Resource**: Serves as a learning tool for those new to the field or looking to expand their knowledge on specific topics within LLMs and Transformers.
+- Installation of llama.cpp and its necessary dependencies to prepare the environment for quantization.
+- Conversion of the Llama 2 model to a quantized format (GGUF) that is more suitable for execution on devices with limited computational resources.
+- Demonstration of the quantization process, highlighting the steps taken to reduce the precision of the model's parameters effectively.
 <p align="center">
   <img src="https://github.com/akhilchibber/Llama2-Quantization/blob/main/Quantization.png" alt="earthml Logo">
 </p>
 
 ## Use Case
-- **Academic and Industry Research**: Ideal for researchers and professionals seeking to deepen their understanding or contribute to the fields of LLMs, ChatGPT, and Transformers.
-- **Project Inspiration**: Provides a foundation for developing new projects or studies based on the latest trends and findings in AI research.
+This project is geared towards AI researchers, ML engineers, and developers looking to deploy large language models like Llama 2 on a broad array of hardware, including those with constrained computational capabilities. It offers insights into making state-of-the-art AI technologies more accessible and efficient for real-world applications.
 
 ## Getting Started
 To get started with this project:
